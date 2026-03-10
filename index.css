@@ -355,8 +355,8 @@ div#contato li, a {
 #contato .links-rodape  {
     display: flex;
 
-    margin: 0 auto;
-    gap: 3rem;
+    margin: auto auto;
+    gap: 2rem;
 } 
 
 @media(max-width: 1020px){
@@ -459,6 +459,10 @@ div#contato li, a {
     .links-rodape{
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .links-rodape a {
+        margin: 0 auto;
     }
 
     #contato {
